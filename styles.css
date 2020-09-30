@@ -15,7 +15,7 @@ body {
   }
   
   h1 {
-    color: #999999;
+    color: #585858;
     margin-bottom: 1.6rem;
     padding: 1.2rem 0;
 
@@ -33,7 +33,6 @@ body {
     font-weight: 200;
     font-size: 16px;
     display: flex;
-    justify-content: space-between;
     width: 80%;
   }
     
@@ -62,7 +61,16 @@ body {
   }
 
   @media (max-width: 45rem) {
-    p { 
-      padding: 0 0 0 0;    
+    body {
+      padding: 0.1rem 3.2rem 1.6rem;
+      font-weight: 200;
+      font-size: 16px;
     }
+    p { 
+      padding: 0 0 0 0;  
+      width: 95%;
+    }
+    .header-links__items {
+      padding: 0px 10px 0px 10px;    
+    }   
 }
