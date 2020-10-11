@@ -60,6 +60,26 @@ body {
     padding: 0px 20px 0px 20px;    
   }
 
+  .carousel-container {
+    height: min-content;
+    width: 600px;
+  }
+
+  .carousel-control.right {
+    background-image: none;
+  }
+  .carousel-control.left {
+    background-image: none;
+  }
+
+  .glyphicon.glyphicon-chevron-right {
+    margin-top: 100px !important;  
+  }
+
+  .glyphicon.glyphicon-chevron-left {
+    margin-top: 100px !important;  
+  }
+
   @media (max-width: 45rem) {
     body {
       padding: 0.1rem 3.2rem 1.6rem;
