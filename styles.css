@@ -65,17 +65,23 @@ body {
     width: 600px;
   }
 
-  .carousel-control.right {
-    background-image: none;
+  .carousel-caption {
+    bottom: 0px;
+    text-shadow: 2px 2px 4px #000000;
   }
+
+  .carousel-caption-text {
+    color: #fff;
+    bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .carousel-control.right, 
   .carousel-control.left {
     background-image: none;
   }
 
-  .glyphicon.glyphicon-chevron-right {
-    margin-top: 100px !important;  
-  }
-
+  .glyphicon.glyphicon-chevron-right, 
   .glyphicon.glyphicon-chevron-left {
     margin-top: 100px !important;  
   }
