@@ -98,5 +98,15 @@ body {
     }
     .header-links__items {
       padding: 0px 10px 0px 10px;    
-    }   
+    }  
+    
+    .carousel-container {
+      height: min-content;
+      width: 300px;
+    }
+
+    .glyphicon.glyphicon-chevron-right, 
+    .glyphicon.glyphicon-chevron-left {
+      margin-top: -10px !important;  
+    }
 }
